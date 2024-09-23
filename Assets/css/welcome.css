@@ -8,6 +8,17 @@
 	src: url('../fonts/Poppins-Black.ttf');
 } 
 
+@keyframes customAnimationIn {
+  0% {
+    opacity: 0; /* Start transparent */
+    transform: translateY(-20px); /* Start from above */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* End at original position */
+  }
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -42,13 +53,24 @@
 		background-position: center;
 		/* Center the image for mobile */
 	}
+	.about-p {
+		height: 400px;
+		min-height: 400px;
+		background-position: center;
+		/* Center the image for mobile */
+	}
 }
 
 .about-p {
 	background: url('../img/math-board.png');
 	background-size: cover;
 	background-position: center;
-	
+	position: relative;
+	height: 600px;
+	min-height: 585px;
+	z-index: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .overl {
