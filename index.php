@@ -13,7 +13,7 @@
       
     <script class="u-script" type="text/javascript" src="Assets/js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="Assets/js/nicepage.js" defer=""></script>
-      <link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
+      <link rel="stylesheet" type="text/css" href="Assets/css/welcome.css">
       <link rel="icon" type="image/x-icon" href="favicon.ico">
    </head>
    <body>
@@ -349,9 +349,6 @@
          showSlide(currentSlide);
          updateButtons();
          startSlideshow();
-         
       </script>
-
-      
    </body>
 </html>
