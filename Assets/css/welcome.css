@@ -364,7 +364,10 @@ nav a:hover {
 	.u-section-2 .u-list-1 {
 	  width: 340px;
 	}
-  } .u-section-3 {
+  } 
+  
+ 
+  .u-section-3 {
 	background-image: none;
   }
 
@@ -516,7 +519,8 @@ nav a:hover {
 	.u-section-3 .u-sheet-1 {
 	  min-height: 1198px;
 	}
-  
+
+
 	.u-section-3 .u-group-1 {
 	  min-height: 655px;
 	  margin-top: 21px;
@@ -549,14 +553,21 @@ nav a:hover {
   
 	.u-section-3 .u-group-2 {
 	  width: 540px;
-	  margin: 20px 0 21px;
+	  margin: 20px auto 20px;
+	  padding: auto 20px; /* Adjust side padding for smaller screens */
+	  justify-content: center; /* Center the items */
+	  text-align: center; 
 	}
   
 	.u-section-3 .u-text-1 {
 	  width: auto;
 	}
+
+	.u-section-3 .u-text-2 {
+		width: auto;
+	  }
   }
-  
+
   @media (max-width: 575px) {
 	.u-section-3 .u-sheet-1 {
 	  min-height: 944px;
@@ -592,7 +603,18 @@ nav a:hover {
 	.u-section-3 .u-group-2 {
 	  width: 340px;
 	  margin-bottom: -90px;
+	  padding: auto 20px; /* Adjust side padding for smaller screens */
+	  justify-content: center; /* Center the items */
+	  text-align: center; 
 	}
+	.u-section-3 .u-text-2 {
+		width: 340px;
+		padding: auto 20px; /* Adjust side padding for smaller screens */
+		justify-content: center; /* Center the items */
+		text-align: center; 
+	  }
+  
+	
   } 
   
   .u-section-4 {
@@ -729,6 +751,7 @@ nav a:hover {
 }
 
 
+
  /*Section-4 designs*/
 .u-section-4 {
 	background-image: none;
@@ -748,8 +771,11 @@ nav a:hover {
 	margin: 60px auto 0;
 }
 
+
+
 .u-section-4 .u-text-2 {
 	font-size: 1.125rem;
+	text-align: center; /* Center text */
 	width: 822px;
 	margin: 20px auto 0;
 }
@@ -759,9 +785,10 @@ nav a:hover {
 }
 
 .u-section-4 .u-repeater-1 {
-	grid-template-columns: repeat(4, calc(25% - 15px));
+	grid-template-columns: repeat(4, calc(17% - 20px));
 	min-height: 387px;
 	grid-gap: 20px;
+	justify-content: center; /* Center the items */
 }
 
 .u-section-4 .u-list-item-1 {
@@ -868,6 +895,7 @@ nav a:hover {
 	font-style: normal;
 }
 
+
 @media (max-width: 1199px) {
 	.u-section-4 .u-list-1 {
 	  margin-right: initial;
@@ -876,6 +904,8 @@ nav a:hover {
 
 	.u-section-4 .u-repeater-1 {
 	  min-height: 315px;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
+	  justify-content: center; /* Center the items */
 	}
 
 	.u-section-4 .u-image-1 {
@@ -918,11 +948,14 @@ nav a:hover {
 
 	.u-section-4 .u-text-2 {
 	  width: 720px;
+	  justify-content: center; /* Center the items */
 	}
 
 	.u-section-4 .u-repeater-1 {
 	  grid-template-columns: repeat(2, calc(50% - 10px));
 	  min-height: 935px;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
+	  justify-content: center; /* Center the items */
 	}
 
 	.u-section-4 .u-image-1 {
@@ -944,11 +977,16 @@ nav a:hover {
 
 @media (max-width: 767px) {
 	.u-section-4 .u-text-2 {
-	  width: 540px;
+		width: 90%;
+		max-width: 540px; /* Maintain a maximum width */
+	  justify-content: center; /* Center the items */
+	  padding: 0 20px; /* Add some padding */
 	}
 
 	.u-section-4 .u-repeater-1 {
 	  grid-template-columns: 100%;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
+	  justify-content: center; /* Center the items */
 	}
 
 	.u-section-4 .u-container-layout-1 {
@@ -995,6 +1033,7 @@ nav a:hover {
 @media (max-width: 575px) {
 	.u-section-4 .u-text-2 {
 	  width: 340px;
+	  padding: 0 20px; /* Add some padding */
 	}
 
 	.u-section-4 .u-list-1 {
@@ -1240,10 +1279,11 @@ nav a:hover {
   }
   
   .u-section-5 .u-repeater-1 {
-	grid-auto-columns: calc(50% - 5px);
-	grid-template-columns: repeat(2, calc(50% - 5px));
+	grid-auto-columns: calc(30% - 50px);
+	grid-template-columns: repeat(2, calc(36% - 30px));
 	min-height: 434px;
 	grid-gap: 10px;
+	justify-content: center; /* Center the items */
   }
   
   .u-section-5 .u-container-layout-1 {
@@ -1256,10 +1296,6 @@ nav a:hover {
 	margin: 0;
   }
 
-  .u-section-5 .u-text {
-
-  }
-  
   .u-section-5 .u-text-1 {
 	margin: -64px 0 0 108px;
 	
@@ -1319,6 +1355,7 @@ nav a:hover {
   
 	.u-section-5 .u-repeater-1 {
 	  min-height: 359px;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
 	}
   
 	.u-section-5 .u-text-1 {
@@ -1346,6 +1383,7 @@ nav a:hover {
 	.u-section-5 .u-repeater-1 {
 	  grid-auto-columns: calc(100% - 0px);
 	  grid-template-columns: 100%;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
 	}
   
 	.u-section-5 .u-text-1 {
@@ -1368,6 +1406,7 @@ nav a:hover {
   @media (max-width: 767px) {
 	.u-section-5 .u-repeater-1 {
 	  grid-auto-columns: 100%;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
 	}
   
 	.u-section-5 .u-container-layout-1 {
@@ -1741,6 +1780,7 @@ nav a:hover {
 	.u-section-6 .u-repeater-1 {
 	  grid-template-columns: repeat(3, calc(33.333333333333336% - 20px));
 	  min-height: 851px;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
 	}
   
 	.u-section-6 .u-text-2 {
@@ -1873,8 +1913,17 @@ nav a:hover {
 	.u-section-6 .u-repeater-1 {
 	  grid-template-columns: repeat(2, calc(50% - 15px));
 	  min-height: 1508px;
+	  padding: 0 60px; /* Adjust side padding for smaller screens */
 	}
-  
+
+	.u-section-6 .u-text-1 {
+		margin-left: 23px;
+		margin-right: 23px;
+		padding: 0 20px; /* Reduce padding for medium screens */
+		font-size: 2.5rem; /* Adjust font size for smaller screens */
+		text-align: center; /* Center align the text */
+  }
+
 	.u-section-6 .u-text-2 {
 	  margin-left: 23px;
 	  margin-right: 23px;
@@ -1935,12 +1984,20 @@ nav a:hover {
 	  height: 263px;
 	}
   }
+
   
   @media (max-width: 767px) {
 	.u-section-6 .u-repeater-1 {
 	  grid-template-columns: 100%;
+	  padding: 0 0; /* Adjust side padding for smaller screens */
 	}
-  
+	.u-section-6 .u-text-1 {
+		margin-left: 23px;
+		margin-right: 23px;
+		font-size: 2.5rem; /* Adjust font size for smaller screens */
+		text-align: center; /* Center align the text */
+		padding: 0 20px; /* for medium screens */
+  }
 	.u-section-6 .u-text-2 {
 	  margin-left: auto;
 	  margin-right: auto;
@@ -2028,8 +2085,12 @@ nav a:hover {
   
   @media (max-width: 575px) {
 	.u-section-6 .u-text-1 {
-	  font-size: 2.25rem;
-	}
+		margin-left: 23px;
+		margin-right: 23px;
+		font-size: 2.5rem; /* Adjust font size for smaller screens */
+		text-align: center; /* Center align the text */
+		padding: 0 0; /* Adjust side padding for smaller screens */
+  }
   
 	.u-section-6 .u-container-layout-1 {
 	  padding-left: 20px;
