@@ -515,6 +515,7 @@ nav a:hover {
 	}
   }
   
+  
   @media (max-width: 767px) {
 	.u-section-3 .u-sheet-1 {
 	  min-height: 1198px;
@@ -536,19 +537,21 @@ nav a:hover {
 	.u-section-3 .u-image-1 {
 	  width: 540px;
 	  height: 540px;
+	  
 	}
   
 	.u-section-3 .u-shape-1 {
 	  width: 255px;
 	  height: 72px;
 	  margin-top: -146px;
-	  margin-left: auto;
+	  margin: 0 250px; /* Center on small screens */
 	}
   
 	.u-section-3 .u-shape-2 {
 	  width: 213px;
 	  height: 209px;
 	  margin-top: -59px;
+	  margin: 0 65px; /* Center on small screens */
 	}
   
 	.u-section-3 .u-group-2 {
