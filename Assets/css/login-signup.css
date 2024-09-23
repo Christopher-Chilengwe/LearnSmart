@@ -7,7 +7,7 @@
 	font-family: PoppinsBlack;
 	src: url(../fonts/Poppins-Black.ttf);
   }
-  
+
   /* Global Styles */
   * {
 	padding: 0;
@@ -22,36 +22,38 @@
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+  background-color: #f4f4f4; /* Added background color for better contrast */
   }
   
   /* Form Holder Styles */
   .form-holder {
 	width: 550px;
 	max-width: 90%;
-	padding: 10px 0;
+	padding: 20px 0;
 	border-radius: 10px;
 	border: 2px solid #aaa;
 	background-color: #fff; /* Added background color for better contrast */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
   }
   
   /* Form Title and Logo Styles */
   .form-holder h2 {
 	padding: 10px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 26px;
 	font-weight: 600; /* Use font-weight to apply boldness */
   }
   .form-holder .logo {
 	text-align: center;
   }
   .form-holder .logo img {
-	width: 100px;
+	width: 120px;
   }
   
   /* Form Elements Styles */
   .form-group {
 	width: 90%;
-	margin: 5px auto;
+	margin: 15px auto;
   }
   
   .form-group input,
@@ -122,18 +124,18 @@
   /* Error and Success Message Styles */
   .error {
 	background: #ffc9c5;
-	padding: 10px;
+	padding: 12px;
 	width: 90%;
-	margin: 2px auto;
+	margin: 10px auto;
 	color: red;
 	border-radius: 5px;
   }
   
   .success {
 	background: #B7FFB7;
-	padding: 10px;
+	padding: 12px;
 	width: 90%;
-	margin: 2px auto;
+	margin: 10px auto;
 	color: green;
 	border-radius: 5px;
   }
@@ -144,6 +146,7 @@
   .form-group button:focus {
 	border-color: #006cff;
 	outline: none;
+  box-shadow: 0 0 0 1px #006cff; /* Focus effect */
   }
   
   /* Responsive Design */
@@ -200,9 +203,16 @@
 
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
-    .back-btn {
-        font-size: 14px;
-        padding: 1px 4px;
-    }
+  .form-holder {
+      width: 100%;
+      padding: 10px;
+  }
+  .form-group select {
+      width: 100%;
+  }
+  .back-btn {
+      font-size: 14px;
+      padding: 5px 10px; /* Adjust padding for smaller screens */
+  }
 }
 
